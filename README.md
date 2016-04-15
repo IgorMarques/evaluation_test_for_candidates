@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-The world as we know has fallen into a apocalyptic scenario, where a laboratory made virus is transforming human beings and animal into zombies, hungry for fresh flesh.
+The world as we know has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animal into zombies, hungry for fresh flesh.
 
 You, as a zombie resistance member (and the last survivor who knows how to code), was charged on developing a system to share resources between non-infected humans.
 
@@ -10,35 +10,35 @@ You, as a zombie resistance member (and the last survivor who knows how to code)
 
 You will need to develop a ***REST API***, which will store informations about the survivors, as well as the resources owned by them.
 
-To do this, the api will need to have this features:
+To do this, the api will need to have the following features:
 
 - **Create users in the base**
 
-  A user has *name*, *age*, *gender* and *last location (latitude, longitude)*.
+  An user has *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  A user has a inventory of resources that he owns (empty at the time of creation).
+  An user has an inventory of resources that he owns (empty at the time of creation).
 
   The accepted resources that can be in the inventory are: **water**, **food**, **aid kit** and **ammo**.
 
 - **Update user location**
 
-  A user must have the ability to update his last location, storing the new latitude/longitude pair in the base.
+  An user must have the ability to update his last location, storing the new latitude/longitude pair in the base.
 
 - **Flag a user as infected**
 
-  In a chaotic situation like that, it's inevitable that a user gets contaminated by the virus.
+  In a chaotic situation like that, it's inevitable that an user gets contaminated by the virus.
 
-  In this case, we need to flag that user as a infected.
+  In this case, we need to flag an user as infected.
 
-  A infected user cannot trade with other players, can't access his inventory, nor be listed in the reports (he is kinda dead anyway).
+  An infected user cannot trade with other players, can't access his inventory, nor be listed in the reports (he is kinda dead anyway).
 
-  **A user is marked as infected when at least three other users report his contamination.**
+  **An user is marked as infected when at least three other users report his contamination.**
 
-  When a user is infected, his inventory items are inaccessible.
+  When an user is infected, his inventory items are inaccessible.
 
 - **Add/Remove items from inventory**
 
-  A user can add/remove items from his inventory.
+  An user can add/remove items from his inventory.
 
   The items that can be in the inventory are described above in the first feature.
 
@@ -48,9 +48,9 @@ To do this, the api will need to have this features:
 
   To do that, they must respect the price table below.
 
-  The both sides of the trade should offer the same number of points.
+  Both sides of the trade should offer the same amount of points.
 
-  You do not need to store the trade, just transfer the items.
+  You do not have to store the trade, but you must transfer the items.
 
 | Item      | Points   |
 |-----------|----------|
