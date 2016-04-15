@@ -4,13 +4,13 @@
 
 The world as we know it has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
 
-You, as a zombie resistance member (and the last survivor who knows how to code), were chosen to develop a system to share resources between non-infected humans.
+You, as a zombie resistance member (and the last survivor who knows how to code), was designated to develop a system to share resources between non-infected humans.
 
 ## Features
 
 You will need to develop a ***REST API*** (yes, we care about architecture design even in the midst of a zombie apocalypse!), which will store information about the survivors, as well as the resources they own.
 
-To do this, the api will need to have the following features:
+To do this, the api must have the following features:
 
 - **Add survivors to the database**
 
@@ -30,7 +30,7 @@ To do this, the api will need to have the following features:
 
   In this case, we need to flag the survivor as infected.
 
-  An infected survivor cannot trade with others, can't access his inventory, nor be listed in the reports (he is kinda dead anyway, see the item on reports below).
+  An infected survivor cannot trade with others, can't access/manipulate his inventory, nor be listed in the reports (he is kinda dead anyway, see the item on reports below).
 
   **A survivor is marked as infected when at least three other survivors report his contamination.**
 
@@ -57,7 +57,7 @@ To do this, the api will need to have the following features:
 | 1 Water      | 4 points |
 | 1 Food       | 3 points |
 | 1 Medication | 2 points |
-| 1 Ammunition | 1 points |
+| 1 Ammunition | 1 point  |
 
 - **Reports**
 
