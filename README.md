@@ -10,19 +10,19 @@ You, as a zombie resistance member (and the last survivor who knows how to code)
 
 You will need to develop a ***REST API*** (yes, we care about architecture design even in the midst of a zombie apocalypse!), which will store information about the survivors, as well as the resources they own.
 
-To do this, the api must have the following features:
+To do this, the API must have the following features:
 
 - **Add survivors to the database**
 
   A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  A survivor has an inventory of resources of his own property (which you need to declare at the initial registration of the user).
+  A survivor has an inventory of resources of their own property (which you need to declare at the initial registration of the user).
 
   The only kinds of resources that can be in the inventory are: **water**, **food**, **medication** and **ammunition**.
 
 - **Update survivor location**
 
-  A survivor must have the ability to update his last location, storing the new latitude/longitude pair in the base (no need to track locations, just replacing the previous one is enough).
+  A survivor must have the ability to update their last location, storing the new latitude/longitude pair in the base (no need to track locations, just replacing the previous one is enough).
 
 - **Flag survivor as infected**
 
@@ -30,15 +30,15 @@ To do this, the api must have the following features:
 
   In this case, we need to flag the survivor as infected.
 
-  An infected survivor cannot trade with others, can't access/manipulate his inventory, nor be listed in the reports (he is kinda dead anyway, see the item on reports below).
+  An infected survivor cannot trade with others, can't access/manipulate their inventory, nor be listed in the reports (infected people are kinda dead anyway, see the item on reports below).
 
-  **A survivor is marked as infected when at least three other survivors report his contamination.**
+  **A survivor is marked as infected when at least three other survivors report their contamination.**
 
-  When a survivor is infected, his inventory items are inaccessible (he cannot trade with others).
+  When a survivor is infected, their inventory items are inaccessible (they cannot trade with others).
 
 - **Survivors cannot Add/Remove items from inventory**
 
-  His belongings must be declared when he is first registered in the system. After that he can only change his inventory by means of trading with other survivors.
+  Their belongings must be declared when they are first registered in the system. After that they can only change their inventory by means of trading with other survivors.
 
   The items that can be in the inventory are described above in the first feature.
 
