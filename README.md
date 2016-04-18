@@ -16,7 +16,7 @@ To do this, the api must have the following features:
 
   A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  Upon creation, a survivor will have an inventory of resources (empty by default).
+  A survivor has an inventory of resources of his own property (which you need to declare at the initial registration of the user).
 
   The only kinds of resources that can be in the inventory are: **water**, **food**, **medication** and **ammunition**.
 
