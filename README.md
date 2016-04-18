@@ -12,45 +12,45 @@ You will need to develop a ***REST API*** (yes, we care about architecture desig
 
 To do this, the api will need to have the following features:
 
-- **Create users in the database**
+- **Add survivors to the database**
 
-  An user has to have *name*, *age*, *gender* and *last location (latitude, longitude)*.
+  A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  An user has an inventory of resources of his own property (which you need to declare at the initial registration of the user).
+  A survivor has an inventory of resources of his own property (which you need to declare at the initial registration of the user).
 
   The only kinds of resources that can be in the inventory are: **water**, **food**, **medication** and **ammunition**.
 
-- **Update user location**
+- **Update survivor location**
 
-  An user must have the ability to update his last location, storing the new latitude/longitude pair in the base (no need to track locations, just replacing the previous one is enough).
+  A survivor must have the ability to update his last location, storing the new latitude/longitude pair in the base (no need to track locations, just replacing the previous one is enough).
 
-- **Flag user as infected**
+- **Flag survivor as infected**
 
-  In a chaotic situation like that, it's inevitable that an user gets contaminated by the virus.
+  In a chaotic situation like that, it's inevitable that a survivor gets contaminated by the virus.
 
-  In this case, we need to flag an user as infected.
+  In this case, we need to flag the survivor as infected.
 
-  An infected user cannot trade with other players, can't access his inventory, nor be listed in the reports (he is kinda dead anyway, see the item on reports below).
+  An infected survivor cannot trade with others, can't access his inventory, nor be listed in the reports (he is kinda dead anyway, see the item on reports below).
 
-  **An user is marked as infected when at least three other users report his contamination.**
+  **A survivor is marked as infected when at least three other survivors report his contamination.**
 
-  When an user is infected, his inventory items are inaccessible (he cannot trade with other users).
+  When a survivor is infected, his inventory items are inaccessible (he cannot trade with others).
 
-- **Users cannot Add/Remove items from inventory**
+- **Survivors cannot Add/Remove items from inventory**
 
-  His belongings must be declared when he is first registered in the system, then he can only change his inventory by means of trading with other users.
+  His belongings must be declared when he is first registered in the system, then he can only change his inventory by means of trading with other survivors.
 
   The items that can be in the inventory are described above in the first feature.
 
 - **Trade items**:
 
-  Users can trade items among themselves.
+  Survivors can trade items among themselves.
 
   To do that, they must respect the price table below. The currency is just "points" of value of the items.
 
   Both sides of the trade should offer the same amount of points. For example, 1 Water and 1 Medication (1 x 4 + 1 x 2) is worth 6 ammunition (6 x 1) or 2 Food items (2 x 3).
 
-  You do not have to store the trade transaction, but you must transfer the items between the users.
+  You do not have to store the trade transaction, but you must transfer the items between the survivors.
 
 | Item         | Points   |
 |--------------|----------|
@@ -63,10 +63,10 @@ To do this, the api will need to have the following features:
 
   You need to be able to generate the following reports using an API endpoint:
 
-    1. Percentage of infected users.
-    1. Percentage of non-infected users.
-    3. Average quantity of each kind of resource by user (e.g. 5 waters per user)
-    4. Points lost because of infected users.
+    1. Percentage of infected survivors.
+    1. Percentage of non-infected survivors.
+    3. Average quantity of each kind of resource by survivor (e.g. 5 waters per user)
+    4. Points lost because of infected survivor.
 
 ---------------------------------------
 
