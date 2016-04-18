@@ -4,7 +4,7 @@
 
 The world as we know it has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
 
-You, as a zombie resistance member (and the last survivor who knows how to code), was charged to develop a system to share resources between non-infected humans.
+You, as a zombie resistance member (and the last survivor who knows how to code), were chosen to develop a system to share resources between non-infected humans.
 
 ## Features
 
@@ -16,7 +16,7 @@ To do this, the api will need to have the following features:
 
   A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  A survivor has an inventory of resources of his own property (which you need to declare at the initial registration of the user).
+  Upon creation, a survivor will have an inventory of resources (empty by default).
 
   The only kinds of resources that can be in the inventory are: **water**, **food**, **medication** and **ammunition**.
 
@@ -26,7 +26,7 @@ To do this, the api will need to have the following features:
 
 - **Flag survivor as infected**
 
-  In a chaotic situation like that, it's inevitable that a survivor gets contaminated by the virus.
+  In a chaotic situation like that, it's inevitable that a survivor may get contaminated by the virus.
 
   In this case, we need to flag the survivor as infected.
 
@@ -38,7 +38,7 @@ To do this, the api will need to have the following features:
 
 - **Survivors cannot Add/Remove items from inventory**
 
-  His belongings must be declared when he is first registered in the system, then he can only change his inventory by means of trading with other survivors.
+  His belongings must be declared when he is first registered in the system. After that he can only change his inventory by means of trading with other survivors.
 
   The items that can be in the inventory are described above in the first feature.
 
@@ -65,7 +65,7 @@ To do this, the api will need to have the following features:
 
     1. Percentage of infected survivors.
     1. Percentage of non-infected survivors.
-    3. Average quantity of each kind of resource by survivor (e.g. 5 waters per user)
+    3. Average amount of each kind of resource by survivor (e.g. 5 waters per user)
     4. Points lost because of infected survivor.
 
 ---------------------------------------
@@ -76,4 +76,4 @@ To do this, the api will need to have the following features:
 4. Don't forget to make at least a minimal documentation of the API endpoints and how to use them;
 5. From the problem description above you can do a very bare bone solution or you can add optional features that are not described. Use your time wisely - the best possible solution might just take too long to be effective in the apocalypse - so you must do the best possible solution that will hold up within the least ammount of time and still be able to showcase your skills in order to prove your worth.
 
-**ARE YOU NEGAN?**
+**ARE YOU [NEGAN](https://en.wikipedia.org/wiki/Negan)?**
