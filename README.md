@@ -16,7 +16,7 @@ In order to accomplish this, the API must fulfill the following use cases:
 
   A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
 
-  It also has an inventory of resources of their own property (which you need to declare when upon the registration of the survivor).
+  A survivor also has an inventory of resources of their own property (which you need to declare when upon the registration of the survivor).
 
 - **Update survivor location**
 
