@@ -46,7 +46,7 @@ In order to accomplish this, the API must fulfill the following use cases:
 
   Both sides of the trade should offer the same amount of points. For example, 1 Water and 1 Medication (1 x 4 + 1 x 2) is worth 6 ammunition (6 x 1) or 2 Food items (2 x 3).
 
-  The trades themselves need not to be stored, but the items must be trasnferred from one user to the other.
+  The trades themselves need not to be stored, but the items must be transferred from one user to the other.
 
 | Item         | Points   |
 |--------------|----------|
