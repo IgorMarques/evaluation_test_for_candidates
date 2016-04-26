@@ -8,7 +8,7 @@ You, as a zombie resistance member (and the last survivor who knows how to code)
 
 ## Requirements
 
-You will develop a system that consumes a ***REST API*** which will store information about the survivors, as well as the resources they own.
+You will develop a website that consumes a ***REST API*** which will store information about the survivors, as well as the resources they own.
 
 In order to accomplish this, the system must fulfill the following use cases, sorted by importance to guarantee the survival of the group.
 
@@ -16,13 +16,13 @@ In order to accomplish this, the system must fulfill the following use cases, so
 
   A survivor must have a *name*, *age*, *gender*, *last location (latitude, longitude)* and *inventory*.
 
-  The survivor inventory can have: **water**, **food**, **medication** e **ammunition**.
+  The survivor inventory can have: **water**, **food**, **medication** and **ammunition**.
 
   The interface is expected to have a list of the possible itens to add to the inventory, as well as a map to assign the last location (initially with the current location of the survivor). An intuitive and pratical interface ensure the security of the members of your group.
 
 - **Update survivor location**:
 
-  Survivors must have the ability to update their last location. When added to the database, a survivor will receive a unique identification on the system. Using that identification the survivors must be able to search for themselves on the system and update the last location in a pratical way.
+  Survivors must have the ability to update their last location. When added to the database, a survivor will receive a unique identification from the system. Using that identification the survivors must be able to search for themselves and update the last location in a pratical way.
 
 - **Flag survivor as infected**:
 
@@ -72,9 +72,7 @@ In order to accomplish this, the system must fulfill the following use cases, so
 
 ## REST API
 
-To communicate with the server you'll have the following routes:
-
-_swagger link/info here_
+To communicate with the server you'll have available the endpoints listed here: [Zombie Survival Social Network](https://github.com/Codeminer42/zssn_test_resolution#zssn-zombie-survival-social-network).
 
 ## Notes:
 
