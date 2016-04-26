@@ -81,7 +81,7 @@ To communicate with the server you'll have available the endpoints listed here: 
 3. You can use CSS _precompilers_, like SASS, PostCSS, Less or Stylus;
 4. Avoid using Twitter Bootstrap or Zurb Foundation. If you want reusability, choose _frameworks_ like Bourbon Neat;
 5. Design is important, but UX is even more important. Your life is in risk, it's not good to have a system that is hard to use;
-6. New _features_ are welcome, but the priority is the previous listed _features_, sorted by importance.
+6. New _features_ are welcome, but the priority is the previous listed _features_, sorted by importance;
 7. The survivor should not reenter data in case there's some network problem. Practicity and objectivity is the ideal.
 
 **ARE YOU [NEGAN](https://en.wikipedia.org/wiki/Negan)?**
